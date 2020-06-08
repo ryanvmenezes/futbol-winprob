@@ -8,12 +8,7 @@
 
     <link rel="stylesheet" href="/static/css/bootstrap.min.css">
     <link rel="stylesheet" href="/static/css/jquery.dataTables.min.css">
-    <style>
-      .flagicon {
-        width: 25px;
-        margin: 2px 5px;
-      }
-    </style>
+    <link rel="stylesheet" href="/static/css/custom.css">
     <style>
       
       
@@ -23,7 +18,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="/">Two-legged tie win probability</a>
+      <a class="navbar-brand" href="/">Win probability</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -31,10 +26,7 @@
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="/teams/">Teams <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="/countries/">Countries</a>
+            <a class="nav-link" href="/teams/">Teams</a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="/ties/">Ties</a>
@@ -43,7 +35,7 @@
       </div>
     </nav>
 
-    <div class='content' style="padding: 5rem 2rem">
+    <div class='content'>
       
 
 <h2>Vaasan PS</h2>
@@ -64,33 +56,33 @@
         <tr>
             <td>2015</td>
             <td>el-0q-1fqr</td>
-            <td><a href="/teams/vaasan-ps/">Vaasan PS</a><a href="/countries/finland/"><img class='flagicon' src="/static/img/finland.png" /></a></td>
-            <td><a href="/teams/if-brommapojkarna/">IF Brommapojkarna</a><a href="/countries/finland/"><img class='flagicon' src="/static/img/sweden.png" /></a></td>
-            <td>VPS (2–3) Brommapojkarna</td>
+            <td><a href="/teams/vaasan-ps/">Vaasan PS</a><img class='flagicon' src="/static/img/finland.png" /></td>
+            <td><a href="/teams/if-brommapojkarna/">IF Brommapojkarna</a><img class='flagicon' src="/static/img/sweden.png" /></td>
+            <td><a href="/ties/2015-el-0q-1fqr-vps-brommapojkarna">VPS (2–3) Brommapojkarna</a></td>
         </tr>
         
         <tr>
             <td>2016</td>
             <td>el-0q-1fqr</td>
-            <td><a href="/teams/vaasan-ps/">Vaasan PS</a><a href="/countries/finland/"><img class='flagicon' src="/static/img/finland.png" /></a></td>
-            <td><a href="/teams/aik-stockholm/">AIK Stockholm</a><a href="/countries/finland/"><img class='flagicon' src="/static/img/sweden.png" /></a></td>
-            <td>VPS (2–6) AIK Stockholm</td>
+            <td><a href="/teams/vaasan-ps/">Vaasan PS</a><img class='flagicon' src="/static/img/finland.png" /></td>
+            <td><a href="/teams/aik-stockholm/">AIK Stockholm</a><img class='flagicon' src="/static/img/sweden.png" /></td>
+            <td><a href="/ties/2016-el-0q-1fqr-vps-aik-stockholm">VPS (2–6) AIK Stockholm</a></td>
         </tr>
         
         <tr>
             <td>2018</td>
             <td>el-0q-1fqr</td>
-            <td><a href="/teams/vaasan-ps/">Vaasan PS</a><a href="/countries/finland/"><img class='flagicon' src="/static/img/finland.png" /></a></td>
-            <td><a href="/teams/nk-olimpija-ljubljana/">NK Olimpija Ljubljana</a><a href="/countries/finland/"><img class='flagicon' src="/static/img/slovenia.png" /></a></td>
-            <td>VPS (2–0) Olimpija</td>
+            <td><a href="/teams/vaasan-ps/">Vaasan PS</a><img class='flagicon' src="/static/img/finland.png" /></td>
+            <td><a href="/teams/nk-olimpija-ljubljana/">NK Olimpija Ljubljana</a><img class='flagicon' src="/static/img/slovenia.png" /></td>
+            <td><a href="/ties/2018-el-0q-1fqr-vps-olimpija">VPS (2–0) Olimpija</a></td>
         </tr>
         
         <tr>
             <td>2018</td>
             <td>el-0q-2sqr</td>
-            <td><a href="/teams/brndby-if/">Brøndby IF</a><a href="/countries/denmark/"><img class='flagicon' src="/static/img/denmark.png" /></a></td>
-            <td><a href="/teams/vaasan-ps/">Vaasan PS</a><a href="/countries/denmark/"><img class='flagicon' src="/static/img/finland.png" /></a></td>
-            <td>Brøndby (3–2) VPS</td>
+            <td><a href="/teams/brndby-if/">Brøndby IF</a><img class='flagicon' src="/static/img/denmark.png" /></td>
+            <td><a href="/teams/vaasan-ps/">Vaasan PS</a><img class='flagicon' src="/static/img/finland.png" /></td>
+            <td><a href="/ties/2018-el-0q-2sqr-brndby-vps">Brøndby (3–2) VPS</a></td>
         </tr>
         
     </tbody>
@@ -107,5 +99,6 @@
       
       
     </script>
+    <script src="/static/js/custom.js"></script>
   </body>
 </html>

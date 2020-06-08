@@ -8,12 +8,7 @@
 
     <link rel="stylesheet" href="/static/css/bootstrap.min.css">
     <link rel="stylesheet" href="/static/css/jquery.dataTables.min.css">
-    <style>
-      .flagicon {
-        width: 25px;
-        margin: 2px 5px;
-      }
-    </style>
+    <link rel="stylesheet" href="/static/css/custom.css">
     <style>
       
       
@@ -23,7 +18,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="/">Two-legged tie win probability</a>
+      <a class="navbar-brand" href="/">Win probability</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -31,10 +26,7 @@
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="/teams/">Teams <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="/countries/">Countries</a>
+            <a class="nav-link" href="/teams/">Teams</a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="/ties/">Ties</a>
@@ -43,7 +35,7 @@
       </div>
     </nav>
 
-    <div class='content' style="padding: 5rem 2rem">
+    <div class='content'>
       
 
 <h2>Lille OSC</h2>
@@ -63,26 +55,26 @@
         
         <tr>
             <td>2015</td>
-            <td>cl-0q-4po</td>
-            <td><a href="/teams/lille-osc/">Lille OSC</a><a href="/countries/france/"><img class='flagicon' src="/static/img/france.png" /></a></td>
-            <td><a href="/teams/fc-porto/">FC Porto</a><a href="/countries/france/"><img class='flagicon' src="/static/img/portugal.png" /></a></td>
-            <td>Lille (0–3) Porto</td>
+            <td>cl-0q-3tqr</td>
+            <td><a href="/teams/grasshopper-club-zurich/">Grasshopper Club Zürich</a><img class='flagicon' src="/static/img/switzerland.png" /></td>
+            <td><a href="/teams/lille-osc/">Lille OSC</a><img class='flagicon' src="/static/img/france.png" /></td>
+            <td><a href="/ties/2015-cl-0q-3tqr-grasshopper-lille">Grasshopper (1–3) Lille</a></td>
         </tr>
         
         <tr>
             <td>2015</td>
-            <td>cl-0q-3tqr</td>
-            <td><a href="/teams/grasshopper-club-zurich/">Grasshopper Club Zürich</a><a href="/countries/switzerland/"><img class='flagicon' src="/static/img/switzerland.png" /></a></td>
-            <td><a href="/teams/lille-osc/">Lille OSC</a><a href="/countries/switzerland/"><img class='flagicon' src="/static/img/france.png" /></a></td>
-            <td>Grasshopper (1–3) Lille</td>
+            <td>cl-0q-4po</td>
+            <td><a href="/teams/lille-osc/">Lille OSC</a><img class='flagicon' src="/static/img/france.png" /></td>
+            <td><a href="/teams/fc-porto/">FC Porto</a><img class='flagicon' src="/static/img/portugal.png" /></td>
+            <td><a href="/ties/2015-cl-0q-4po-lille-porto">Lille (0–3) Porto</a></td>
         </tr>
         
         <tr>
             <td>2017</td>
             <td>el-0q-3tqr</td>
-            <td><a href="/teams/lille-osc/">Lille OSC</a><a href="/countries/france/"><img class='flagicon' src="/static/img/france.png" /></a></td>
-            <td><a href="/teams/gabala-fk/">Gabala FK</a><a href="/countries/france/"><img class='flagicon' src="/static/img/azerbaijan.png" /></a></td>
-            <td>Lille (1–2) Gabala FK</td>
+            <td><a href="/teams/lille-osc/">Lille OSC</a><img class='flagicon' src="/static/img/france.png" /></td>
+            <td><a href="/teams/gabala-fk/">Gabala FK</a><img class='flagicon' src="/static/img/azerbaijan.png" /></td>
+            <td><a href="/ties/2017-el-0q-3tqr-lille-gabala-fk">Lille (1–2) Gabala FK</a></td>
         </tr>
         
     </tbody>
@@ -99,5 +91,6 @@
       
       
     </script>
+    <script src="/static/js/custom.js"></script>
   </body>
 </html>

@@ -8,12 +8,7 @@
 
     <link rel="stylesheet" href="/static/css/bootstrap.min.css">
     <link rel="stylesheet" href="/static/css/jquery.dataTables.min.css">
-    <style>
-      .flagicon {
-        width: 25px;
-        margin: 2px 5px;
-      }
-    </style>
+    <link rel="stylesheet" href="/static/css/custom.css">
     <style>
       
       
@@ -23,7 +18,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="/">Two-legged tie win probability</a>
+      <a class="navbar-brand" href="/">Win probability</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -31,10 +26,7 @@
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="/teams/">Teams <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="/countries/">Countries</a>
+            <a class="nav-link" href="/teams/">Teams</a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="/ties/">Ties</a>
@@ -43,7 +35,7 @@
       </div>
     </nav>
 
-    <div class='content' style="padding: 5rem 2rem">
+    <div class='content'>
       
 
 <h2>FC Porto</h2>
@@ -63,90 +55,90 @@
         
         <tr>
             <td>2015</td>
-            <td>cl-1k-2qf</td>
-            <td><a href="/teams/fc-porto/">FC Porto</a><a href="/countries/portugal/"><img class='flagicon' src="/static/img/portugal.png" /></a></td>
-            <td><a href="/teams/fc-bayern-munich/">FC Bayern Munich</a><a href="/countries/portugal/"><img class='flagicon' src="/static/img/germany.png" /></a></td>
-            <td>Porto (4–7) Bayern Munich</td>
-        </tr>
-        
-        <tr>
-            <td>2015</td>
             <td>cl-0q-4po</td>
-            <td><a href="/teams/lille-osc/">Lille OSC</a><a href="/countries/france/"><img class='flagicon' src="/static/img/france.png" /></a></td>
-            <td><a href="/teams/fc-porto/">FC Porto</a><a href="/countries/france/"><img class='flagicon' src="/static/img/portugal.png" /></a></td>
-            <td>Lille (0–3) Porto</td>
+            <td><a href="/teams/lille-osc/">Lille OSC</a><img class='flagicon' src="/static/img/france.png" /></td>
+            <td><a href="/teams/fc-porto/">FC Porto</a><img class='flagicon' src="/static/img/portugal.png" /></td>
+            <td><a href="/ties/2015-cl-0q-4po-lille-porto">Lille (0–3) Porto</a></td>
         </tr>
         
         <tr>
             <td>2015</td>
             <td>cl-1k-1r16</td>
-            <td><a href="/teams/fc-basel/">FC Basel</a><a href="/countries/switzerland/"><img class='flagicon' src="/static/img/switzerland.png" /></a></td>
-            <td><a href="/teams/fc-porto/">FC Porto</a><a href="/countries/switzerland/"><img class='flagicon' src="/static/img/portugal.png" /></a></td>
-            <td>Basel (1–5) Porto</td>
+            <td><a href="/teams/fc-basel/">FC Basel</a><img class='flagicon' src="/static/img/switzerland.png" /></td>
+            <td><a href="/teams/fc-porto/">FC Porto</a><img class='flagicon' src="/static/img/portugal.png" /></td>
+            <td><a href="/ties/2015-cl-1k-1r16-basel-porto">Basel (1–5) Porto</a></td>
+        </tr>
+        
+        <tr>
+            <td>2015</td>
+            <td>cl-1k-2qf</td>
+            <td><a href="/teams/fc-porto/">FC Porto</a><img class='flagicon' src="/static/img/portugal.png" /></td>
+            <td><a href="/teams/fc-bayern-munich/">FC Bayern Munich</a><img class='flagicon' src="/static/img/germany.png" /></td>
+            <td><a href="/ties/2015-cl-1k-2qf-porto-bayern-munich">Porto (4–7) Bayern Munich</a></td>
         </tr>
         
         <tr>
             <td>2016</td>
             <td>el-1k-1r32</td>
-            <td><a href="/teams/borussia-dortmund/">Borussia Dortmund</a><a href="/countries/germany/"><img class='flagicon' src="/static/img/germany.png" /></a></td>
-            <td><a href="/teams/fc-porto/">FC Porto</a><a href="/countries/germany/"><img class='flagicon' src="/static/img/portugal.png" /></a></td>
-            <td>Dortmund (3–0) Porto</td>
+            <td><a href="/teams/borussia-dortmund/">Borussia Dortmund</a><img class='flagicon' src="/static/img/germany.png" /></td>
+            <td><a href="/teams/fc-porto/">FC Porto</a><img class='flagicon' src="/static/img/portugal.png" /></td>
+            <td><a href="/ties/2016-el-1k-1r32-dortmund-porto">Dortmund (3–0) Porto</a></td>
         </tr>
         
         <tr>
             <td>2017</td>
             <td>cl-0q-4po</td>
-            <td><a href="/teams/fc-porto/">FC Porto</a><a href="/countries/portugal/"><img class='flagicon' src="/static/img/portugal.png" /></a></td>
-            <td><a href="/teams/as-roma/">AS Roma</a><a href="/countries/portugal/"><img class='flagicon' src="/static/img/italy.png" /></a></td>
-            <td>Porto (4–1) Roma</td>
+            <td><a href="/teams/fc-porto/">FC Porto</a><img class='flagicon' src="/static/img/portugal.png" /></td>
+            <td><a href="/teams/as-roma/">AS Roma</a><img class='flagicon' src="/static/img/italy.png" /></td>
+            <td><a href="/ties/2017-cl-0q-4po-porto-roma">Porto (4–1) Roma</a></td>
         </tr>
         
         <tr>
             <td>2017</td>
             <td>cl-1k-1r16</td>
-            <td><a href="/teams/fc-porto/">FC Porto</a><a href="/countries/portugal/"><img class='flagicon' src="/static/img/portugal.png" /></a></td>
-            <td><a href="/teams/juventus/">Juventus</a><a href="/countries/portugal/"><img class='flagicon' src="/static/img/italy.png" /></a></td>
-            <td>Porto (0–3) Juventus</td>
+            <td><a href="/teams/fc-porto/">FC Porto</a><img class='flagicon' src="/static/img/portugal.png" /></td>
+            <td><a href="/teams/juventus/">Juventus</a><img class='flagicon' src="/static/img/italy.png" /></td>
+            <td><a href="/ties/2017-cl-1k-1r16-porto-juventus">Porto (0–3) Juventus</a></td>
         </tr>
         
         <tr>
             <td>2018</td>
             <td>cl-1k-1r16</td>
-            <td><a href="/teams/fc-porto/">FC Porto</a><a href="/countries/portugal/"><img class='flagicon' src="/static/img/portugal.png" /></a></td>
-            <td><a href="/teams/liverpool-fc/">Liverpool FC</a><a href="/countries/portugal/"><img class='flagicon' src="/static/img/england.png" /></a></td>
-            <td>Porto (0–5) Liverpool</td>
+            <td><a href="/teams/fc-porto/">FC Porto</a><img class='flagicon' src="/static/img/portugal.png" /></td>
+            <td><a href="/teams/liverpool-fc/">Liverpool FC</a><img class='flagicon' src="/static/img/england.png" /></td>
+            <td><a href="/ties/2018-cl-1k-1r16-porto-liverpool">Porto (0–5) Liverpool</a></td>
         </tr>
         
         <tr>
             <td>2019</td>
             <td>cl-1k-1r16</td>
-            <td><a href="/teams/as-roma/">AS Roma</a><a href="/countries/italy/"><img class='flagicon' src="/static/img/italy.png" /></a></td>
-            <td><a href="/teams/fc-porto/">FC Porto</a><a href="/countries/italy/"><img class='flagicon' src="/static/img/portugal.png" /></a></td>
-            <td>Roma (3–4 aet) Porto</td>
+            <td><a href="/teams/as-roma/">AS Roma</a><img class='flagicon' src="/static/img/italy.png" /></td>
+            <td><a href="/teams/fc-porto/">FC Porto</a><img class='flagicon' src="/static/img/portugal.png" /></td>
+            <td><a href="/ties/2019-cl-1k-1r16-roma-porto">Roma (3–4 aet) Porto</a></td>
         </tr>
         
         <tr>
             <td>2019</td>
             <td>cl-1k-2qf</td>
-            <td><a href="/teams/liverpool-fc/">Liverpool FC</a><a href="/countries/england/"><img class='flagicon' src="/static/img/england.png" /></a></td>
-            <td><a href="/teams/fc-porto/">FC Porto</a><a href="/countries/england/"><img class='flagicon' src="/static/img/portugal.png" /></a></td>
-            <td>Liverpool (6–1) Porto</td>
+            <td><a href="/teams/liverpool-fc/">Liverpool FC</a><img class='flagicon' src="/static/img/england.png" /></td>
+            <td><a href="/teams/fc-porto/">FC Porto</a><img class='flagicon' src="/static/img/portugal.png" /></td>
+            <td><a href="/ties/2019-cl-1k-2qf-liverpool-porto">Liverpool (6–1) Porto</a></td>
         </tr>
         
         <tr>
             <td>2020</td>
             <td>cl-0q-3tqr</td>
-            <td><a href="/teams/fc-krasnodar/">FC Krasnodar</a><a href="/countries/russia/"><img class='flagicon' src="/static/img/russia.png" /></a></td>
-            <td><a href="/teams/fc-porto/">FC Porto</a><a href="/countries/russia/"><img class='flagicon' src="/static/img/portugal.png" /></a></td>
-            <td>Krasnodar (3–3) Porto, Krasnodar won on away goals</td>
+            <td><a href="/teams/fc-krasnodar/">FC Krasnodar</a><img class='flagicon' src="/static/img/russia.png" /></td>
+            <td><a href="/teams/fc-porto/">FC Porto</a><img class='flagicon' src="/static/img/portugal.png" /></td>
+            <td><a href="/ties/2020-cl-0q-3tqr-krasnodar-porto">Krasnodar (3–3) Porto, Krasnodar won on away goals</a></td>
         </tr>
         
         <tr>
             <td>2020</td>
             <td>el-1k-1r32</td>
-            <td><a href="/teams/bayer-04-leverkusen/">Bayer 04 Leverkusen</a><a href="/countries/germany/"><img class='flagicon' src="/static/img/germany.png" /></a></td>
-            <td><a href="/teams/fc-porto/">FC Porto</a><a href="/countries/germany/"><img class='flagicon' src="/static/img/portugal.png" /></a></td>
-            <td>Leverkusen (5–2) Porto</td>
+            <td><a href="/teams/bayer-04-leverkusen/">Bayer 04 Leverkusen</a><img class='flagicon' src="/static/img/germany.png" /></td>
+            <td><a href="/teams/fc-porto/">FC Porto</a><img class='flagicon' src="/static/img/portugal.png" /></td>
+            <td><a href="/ties/2020-el-1k-1r32-leverkusen-porto">Leverkusen (5–2) Porto</a></td>
         </tr>
         
     </tbody>
@@ -163,5 +155,6 @@
       
       
     </script>
+    <script src="/static/js/custom.js"></script>
   </body>
 </html>

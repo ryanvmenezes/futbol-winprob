@@ -8,12 +8,7 @@
 
     <link rel="stylesheet" href="/static/css/bootstrap.min.css">
     <link rel="stylesheet" href="/static/css/jquery.dataTables.min.css">
-    <style>
-      .flagicon {
-        width: 25px;
-        margin: 2px 5px;
-      }
-    </style>
+    <link rel="stylesheet" href="/static/css/custom.css">
     <style>
       
       
@@ -23,7 +18,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="/">Two-legged tie win probability</a>
+      <a class="navbar-brand" href="/">Win probability</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -31,10 +26,7 @@
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="/teams/">Teams <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="/countries/">Countries</a>
+            <a class="nav-link" href="/teams/">Teams</a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="/ties/">Ties</a>
@@ -43,7 +35,7 @@
       </div>
     </nav>
 
-    <div class='content' style="padding: 5rem 2rem">
+    <div class='content'>
       
 
 <h2>FC Ufa</h2>
@@ -63,26 +55,26 @@
         
         <tr>
             <td>2019</td>
-            <td>el-0q-2sqr</td>
-            <td><a href="/teams/fc-ufa/">FC Ufa</a><a href="/countries/russia/"><img class='flagicon' src="/static/img/russia.png" /></a></td>
-            <td><a href="/teams/nk-domzale/">NK Domžale</a><a href="/countries/russia/"><img class='flagicon' src="/static/img/slovenia.png" /></a></td>
-            <td>Ufa (1–1) NK Domžale, Ufa won on away goals</td>
-        </tr>
-        
-        <tr>
-            <td>2019</td>
             <td>el-0q-3tqr</td>
-            <td><a href="/teams/fc-ufa/">FC Ufa</a><a href="/countries/russia/"><img class='flagicon' src="/static/img/russia.png" /></a></td>
-            <td><a href="/teams/fc-progres-niederkorn/">FC Progrès Niederkorn</a><a href="/countries/russia/"><img class='flagicon' src="/static/img/luxembourg.png" /></a></td>
-            <td>Ufa (4–3) Progrès</td>
+            <td><a href="/teams/fc-ufa/">FC Ufa</a><img class='flagicon' src="/static/img/russia.png" /></td>
+            <td><a href="/teams/fc-progres-niederkorn/">FC Progrès Niederkorn</a><img class='flagicon' src="/static/img/luxembourg.png" /></td>
+            <td><a href="/ties/2019-el-0q-3tqr-ufa-progres">Ufa (4–3) Progrès</a></td>
         </tr>
         
         <tr>
             <td>2019</td>
             <td>el-0q-4po</td>
-            <td><a href="/teams/rangers-fc/">Rangers FC</a><a href="/countries/scotland/"><img class='flagicon' src="/static/img/scotland.png" /></a></td>
-            <td><a href="/teams/fc-ufa/">FC Ufa</a><a href="/countries/scotland/"><img class='flagicon' src="/static/img/russia.png" /></a></td>
-            <td>Rangers (2–1) Ufa</td>
+            <td><a href="/teams/rangers-fc/">Rangers FC</a><img class='flagicon' src="/static/img/scotland.png" /></td>
+            <td><a href="/teams/fc-ufa/">FC Ufa</a><img class='flagicon' src="/static/img/russia.png" /></td>
+            <td><a href="/ties/2019-el-0q-4po-rangers-ufa">Rangers (2–1) Ufa</a></td>
+        </tr>
+        
+        <tr>
+            <td>2019</td>
+            <td>el-0q-2sqr</td>
+            <td><a href="/teams/fc-ufa/">FC Ufa</a><img class='flagicon' src="/static/img/russia.png" /></td>
+            <td><a href="/teams/nk-domzale/">NK Domžale</a><img class='flagicon' src="/static/img/slovenia.png" /></td>
+            <td><a href="/ties/2019-el-0q-2sqr-ufa-nk-domzale">Ufa (1–1) NK Domžale, Ufa won on away goals</a></td>
         </tr>
         
     </tbody>
@@ -99,5 +91,6 @@
       
       
     </script>
+    <script src="/static/js/custom.js"></script>
   </body>
 </html>
